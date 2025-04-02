@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/The_Clone_Wars/netflix/static/css/main.9d11176c.css",
-    "main.js": "/The_Clone_Wars/netflix/static/js/main.a3f14ade.js",
-    "static/media/netflix.png": "/The_Clone_Wars/netflix/static/media/netflix.4fbf1d5d9ccecf0401ec.png",
-    "index.html": "/The_Clone_Wars/netflix/index.html",
-    "main.9d11176c.css.map": "/The_Clone_Wars/netflix/static/css/main.9d11176c.css.map",
-    "main.a3f14ade.js.map": "/The_Clone_Wars/netflix/static/js/main.a3f14ade.js.map"
+    "main.css": "/AnotherNetflix/static/css/main.9d11176c.css",
+    "main.js": "/AnotherNetflix/static/js/main.2008f554.js",
+    "static/media/netflix.png": "/AnotherNetflix/static/media/netflix.4fbf1d5d9ccecf0401ec.png",
+    "index.html": "/AnotherNetflix/index.html",
+    "main.9d11176c.css.map": "/AnotherNetflix/static/css/main.9d11176c.css.map",
+    "main.2008f554.js.map": "/AnotherNetflix/static/js/main.2008f554.js.map"
   },
   "entrypoints": [
     "static/css/main.9d11176c.css",
-    "static/js/main.a3f14ade.js"
+    "static/js/main.2008f554.js"
   ]
 }

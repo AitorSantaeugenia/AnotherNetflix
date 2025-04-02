@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import { AuthContextProvider } from "./context/AuthContext";
 import Home from "./pages/Home";
@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AuthContextProvider>
         <PortfolioBanner />
         <Navbar />
@@ -80,7 +80,7 @@ function App() {
           />
         </Routes>
       </AuthContextProvider>
-    </>
+    </BrowserRouter>
   );
 }
 

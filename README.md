@@ -2,6 +2,8 @@
 
 > **Note**: This project was originally created in 2018 and has been updated in 2025 for deployment on Vercel.
 
+> **Disclaimer Notice**: A disclaimer notice appears on first visit to inform users that this is a non-commercial project. The notice is stored in localStorage and will only show once.
+
 A modern Netflix clone built with React, Firebase, and Tailwind CSS. This project demonstrates a fully functional streaming platform with user authentication, movie browsing, and personal watchlists.
 
 ## 🚀 Live Demo

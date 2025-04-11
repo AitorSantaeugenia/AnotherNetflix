@@ -1,5 +1,7 @@
 # Netflix Clone
 
+> **Note**: This project was originally created in 2018 and has been updated in 2025 for deployment on Vercel.
+
 A modern Netflix clone built with React, Firebase, and Tailwind CSS. This project demonstrates a fully functional streaming platform with user authentication, movie browsing, and personal watchlists.
 
 ## 🚀 Live Demo

@@ -2,6 +2,10 @@
 
 A modern Netflix clone built with React, Firebase, and Tailwind CSS. This project demonstrates a fully functional streaming platform with user authentication, movie browsing, and personal watchlists.
 
+## 🚀 Live Demo
+
+Visit the live application: [Netflix Clone](https://anotherflix-fef2b.web.app/)
+
 ![Demo](https://user-images.githubusercontent.com/14861253/193696115-a341f5bc-da9b-4574-8668-f51272a8c06a.gif)
 
 ## 🌟 Features
@@ -27,10 +31,6 @@ A modern Netflix clone built with React, Firebase, and Tailwind CSS. This projec
   - Consistent color scheme across components
   - Enhanced user feedback during video playback
   - Improved responsive behavior
-
-## 🚀 Live Demo
-
-Visit the live application: [Netflix Clone](https://anotherflix-fef2b.web.app/)
 
 ## 🛠️ Technologies Used
 

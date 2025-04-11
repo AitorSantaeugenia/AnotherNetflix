@@ -8,7 +8,7 @@ A modern Netflix clone built with React, Firebase, and Tailwind CSS. This projec
 
 ## 🚀 Live Demo
 
-Visit the live application: [Netflix Clone](https://anotherflix-fef2b.web.app/)
+Visit the live application: [Netflix Clone](https://another-netflix.vercel.app/)
 
 ![Demo](https://user-images.githubusercontent.com/14861253/193696115-a341f5bc-da9b-4574-8668-f51272a8c06a.gif)
 

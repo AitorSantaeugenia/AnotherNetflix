@@ -13,7 +13,7 @@ A modern Netflix clone built with React, Firebase, and Tailwind CSS. This projec
 - **Responsive Design**: Fully responsive layout for all devices
 - **Modern UI**: Netflix-like interface with hover effects and smooth animations
 - **Movie Trailers**: Watch official trailers when available through the TMDB API
-- **Video Player** {#video-player}: Netflix-style intro animation with automatic redirection <br>(<i>Note: Due to licensing restrictions, clicking play on any movie initiates a 4-second Netflix-style intro animation before redirecting to the browse page, as we cannot stream actual movie content<i>)
+- **Video Player**: Netflix-style intro animation with automatic redirection <br>(<i>Note: Due to licensing restrictions, clicking play on any movie initiates a 4-second Netflix-style intro animation before redirecting to the browse page, as we cannot stream actual movie content<i>)
 
 ## 🔄 Recent Updates
 
@@ -21,7 +21,6 @@ A modern Netflix clone built with React, Firebase, and Tailwind CSS. This projec
   - Improved controls visibility with hover effects
   - Smooth navigation with back button integration
   - Optimized video playback experience
-  - For more details about the video player functionality, see [Video Player](#video-player)
 
 - **UI Improvements**:
   - Redesigned navigation buttons with custom styling

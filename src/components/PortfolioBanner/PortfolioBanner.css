@@ -1,0 +1,70 @@
+.portfolio-banner {
+  background-color: rgba(20, 20, 20, 0.85);
+  color: white;
+  width: 100%;
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.github-link {
+  color: #e50914;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.github-link:hover {
+  color: #ff161f;
+  text-decoration: underline;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.25rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.close-button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .banner-content {
+    padding: 0 1rem;
+  }
+  
+  .banner-content p {
+    font-size: 0.8rem;
+  }
+  
+  .github-link {
+    margin-left: 0.5rem;
+  }
+} 

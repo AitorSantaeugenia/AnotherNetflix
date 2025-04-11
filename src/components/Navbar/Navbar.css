@@ -1,0 +1,130 @@
+/* logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: calc(1rem + 1px);
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.logo > img {
+  width: 100px;
+}
+
+/* buttonsNavbar */
+.buttonsNavbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.buttonsNavbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.buttonsNavbar button:hover {
+  color: rgb(156 163 175);
+}
+
+.buttonsNavbar button.bg-red-600 {
+  background-color: rgb(220 38 38);
+}
+
+.buttonsNavbar button.bg-red-600:hover {
+  background-color: rgb(185 28 28);
+  color: white;
+}
+
+/* navbar */
+.navbarMenu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbarMenu a {
+  text-decoration: none;
+}
+
+.navbarMenu button {
+  padding: 0.5rem 0;
+}
+
+.navBarMenuResponsive {
+  position: absolute;
+  flex-direction: column;
+  top: 98px;
+  background-color: #000000f0;
+  text-align: center;
+  max-width: 260px;
+  min-width: 260px;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navBarMenuResponsive > a {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: block;
+}
+
+.navBarMenuResponsive button {
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+.navbarArrowDown {
+  display: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbarArrowDown > *:hover {
+  color: rgb(156 163 175);
+}
+
+/* media queries */
+@media (max-width: 709px) {
+  .navbarArrowDown {
+    display: flex !important;
+  }
+
+  .navbarMenu a:not(:first-child) {
+    display: none;
+  }
+
+  .navbarMenu {
+    display: flex;
+  }
+}
+
+/* active/inactive states */
+.active {
+  color: white;
+  font-weight: bold;
+}
+
+.inactive {
+  color: rgb(211, 207, 207);
+}
+
+/* Ensure navbar is always visible */
+.flex {
+  display: flex !important;
+}
+
+.hidden {
+  display: none !important;
+}
